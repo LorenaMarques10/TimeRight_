@@ -29,10 +29,16 @@
 </section>
 
 <section id="areaAdmin" style="display: none;">
-    <h2>Bem-vindo, Administrador!</h2>
-    <p>Use os menus abaixo para gerenciar o conteúdo do site.</p>
+    <h2>Painel de Controle</h2>
  
-    <section class="admin-section">
+    <nav class="admin-menu">
+        <a href="#cadastroFuncionario" data-target="funcionario">Funcionários</a>
+        <a href="#cadastroServico" data-target="servico">Serviços</a>
+        <a href="#agenda" data-target="agenda">Agenda</a>
+        <a href="#estatisticas" data-target="estatisticas">Estatísticas</a>
+    </nav>
+ 
+    <section id="func-section" class="admin-content admin-section">
         <h3>Cadastrar Funcionários</h3>
         <form id="formFuncionario">
             <label for="nomeFuncionario">Nome:</label>
@@ -41,6 +47,33 @@
         </form>
         <ul id="listaFuncionarios"></ul>
     </section>
+ 
+    <section id="servico-section" class="admin-content admin-section" style="display:none;">
+        <h3>Cadastrar Serviços</h3>
+        <form id="formServico">
+            <label for="nomeServico">Nome do Serviço:</label>
+            <input type="text" id="nomeServico" required>
+            <label for="precoServico">Preço:</label>
+            <input type="number" id="precoServico" required>
+            <button type="submit">Cadastrar Serviço</button>
+        </form>
+        <ul id="listaServicos"></ul>
+    </section>
+ 
+    <section id="agenda-section" class="admin-content admin-section" style="display:none;">
+        <h3>Agenda</h3>
+        <ul id="listaAgenda"></ul>
+    </section>
+ 
+    <section id="estatisticas-section" class="admin-content admin-section" style="display:none;">
+        <h3>Estatísticas</h3>
+        <p>Porcentagem de horários marcados hoje: <span id="percentualDia">--</span></p>
+        <p>Porcentagem de horários marcados neste mês: <span id="percentualMes">--</span></p>
+        <p>Porcentagem de horários marcados neste ano: <span id="percentualAno">--</span></p>
+    </section>
+ 
+    <button id="botaoSair">Sair</button>
+</section>
  
     <section class="admin-section">
         <h3>Cadastrar Serviços</h3>
