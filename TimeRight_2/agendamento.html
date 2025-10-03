@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Horário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <header>
+        <h1>Agende seu Horário</h1>
+    </header>
+ 
+    <main>
+        <section>
+            <h2>Selecione o Serviço</h2>
+            <select id="servicoSelect"></select>
+        </section>
+ 
+        <section>
+            <h2>Horários Disponíveis</h2>
+            <form id="formAgendamento">
+                <label for="dataAgendamento">Data:</label>
+                <input type="date" id="dataAgendamento" required>
+                
+                <label for="horarioAgendamento">Horário:</label>
+                <select id="horarioAgendamento" required></select>
+ 
+                <label for="nomeCliente">Seu Nome:</label>
+                <input type="text" id="nomeCliente" required>
+                
+                <button type="submit">Confirmar Agendamento</button>
+            </form>
+        </section>
+    </main>
+ 
+    <footer>
+        <p>&copy; 2025 - Seu Nome</p>
+    </footer>
+ 
+    <script src="agendamento.js"></script>
+</body>
+</html>
