@@ -2,7 +2,7 @@
 // Se não houver dados no LocalStorage, cria a agenda inicial
 if (!localStorage.getItem('agenda')) {
     const agendaInicial = [
-        { data: '2025-10-04', horario: '10:00', servico: 'Corte de Cabelo', funcionario: 'João', status: 'Livre' },
+        { data: '09-10-2025', horario: '10:00', servico: 'Corte de Cabelo', funcionario: 'João', status: 'Livre' },
         { data: '2025-10-04', horario: '11:00', servico: 'Manicure', funcionario: 'Maria', status: 'Livre' },
         { data: '2025-10-04', horario: '12:00', servico: 'Massagem', funcionario: 'Pedro', status: 'Livre' },
         { data: '2025-10-04', horario: '14:00', servico: 'Corte de Cabelo', funcionario: 'João', status: 'Livre' },

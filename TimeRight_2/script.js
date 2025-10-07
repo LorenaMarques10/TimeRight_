@@ -32,9 +32,9 @@ let funcionarios = [];
 let servicos = [];
 // Pega a agenda do LocalStorage. Se não existir, usa a agenda padrão.
 let agenda = JSON.parse(localStorage.getItem('agenda')) || [
-    { data: '2025-10-04', horario: '10:00', servico: 'Corte de Cabelo', funcionario: 'João', status: 'Livre' },
-    { data: '2025-10-04', horario: '11:00', servico: 'Manicure', funcionario: 'Maria', status: 'Livre' },
-    { data: '2025-10-04', horario: '12:00', servico: 'Massagem', funcionario: 'Pedro', status: 'Livre' }
+    { data: '2025-10-09', horario: '10:00', servico: 'Corte de Cabelo', funcionario: 'João', status: 'Livre' },
+    { data: '2025-10-09', horario: '11:00', servico: 'Manicure', funcionario: 'Maria', status: 'Livre' },
+    { data: '2025-10-09', horario: '12:00', servico: 'Massagem', funcionario: 'Pedro', status: 'Livre' }
 ];
  
 // --- Funções para Gerenciar Dados e Interface ---

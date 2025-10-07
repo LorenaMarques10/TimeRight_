@@ -8,11 +8,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f2f5; /* Um cinza claro suave */
-    color: #444;
+    color: #ffa0c8;
 }
  
 header {
-    background-color: #007BFF; /* Azul mais vibrante */
+    background-color: #ffccff; /* Azul mais vibrante */
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -37,7 +37,7 @@ nav a {
  
 nav a:hover {
     background-color: #fff;
-    color: #007BFF;
+    color: #f09aeb;
 }
  
 main {
@@ -56,11 +56,11 @@ section {
 }
  
 .admin-section {
-    border-left: 5px solid #007BFF; /* Linha de destaque para as seções */
+    border-left: 5px solid #f888f8; /* Linha de destaque para as seções */
 }
  
 h2, h3 {
-    color: #0056b3;
+    color: #fd9ed5;
     border-bottom: 2px solid #eee;
     padding-bottom: 0.5rem;
     margin-top: 0;
@@ -82,12 +82,12 @@ li {
  
 /* Melhorando botões */
 button {
-    background-color: #28a745; /* Cor verde para "salvar" ou "entrar" */
+    background-color: #ef87f8; /* Cor verde para "salvar" ou "entrar" */
     transition: background-color 0.3s;
 }
  
 button:hover {
-    background-color: #218838;
+    background-color: #ff75e1;
 }
  
 #botaoSair {
